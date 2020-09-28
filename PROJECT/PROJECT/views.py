@@ -11,7 +11,7 @@ class Persona(object):
         self.nombre = nombre
         self.apellido = apellido
 
-def home(request):
+def formulario(request):
     return render(request, "principal.html")
 
 def inicio(request):
