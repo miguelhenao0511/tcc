@@ -4,12 +4,33 @@ from django.template import Template, Context
 from django.template import loader
 from django.shortcuts import render
 
+
 class Persona(object):
 
     def __init__(self, nombre, apellido):
         self.nombre = nombre
         self.apellido = apellido
 
+def home(request):
+    return render(request, "principal.html")
+
+def inicio(request):
+    return render(request, "miplatilla.html")
+
+def lecturaDatos(request):
+
+    if request.method == "POST":
+        shop = request.POST['shop']
+        email = request.POST['email']
+        xml_file = request.FILES['xml_file'].read()
+        
+        return render(request, "gracias.html", {'shop': shop, 'email': email, 'xml_file': xml_file})
+
+    else:
+        # render(request, "miplantilla.html")
+        mensaje = 'no funciona'
+        return HttpResponse(mensaje)
+    
 
 def saludo(request): #primera vista
     creator = Persona("Felipe", "Villarreal")
