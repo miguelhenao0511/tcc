@@ -15,7 +15,7 @@ def home(request):
     return render(request, "principal.html")
 
 def inicio(request):
-    return render(request, "miplatilla.html")
+    return render(request, "miplantilla.html")
 
 def lecturaDatos(request):
 
