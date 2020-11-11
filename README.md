@@ -5,7 +5,7 @@ Integrantes
 * Daniel Andrés Toro Aguirre
 * Miguel Ángel Henao Higuita
 * Felipe Villarreal Piedrahita
-*  ̶L̶u̶i̶s̶ ̶F̶e̶l̶i̶p̶e̶ ̶M̶a̶r̶í̶n̶ ̶B̶u̶i̶t̶r̶a̶g̶o̶
+* ̶L̶u̶i̶s̶ ̶F̶e̶l̶i̶p̶e̶ ̶M̶a̶r̶í̶n̶ ̶B̶u̶i̶t̶r̶a̶g̶o̶
 * Sebastián López Mazo
 * Santiago Cano
 
@@ -30,3 +30,7 @@ Reglas
 * Se define un banco de palabras para filtrar las tareas y así definir las funcionalidades del sistema y las opciones de menú de dicho usuario, por ejemplo: la tarea “registro” se verá reflejada como un menú superior con un pequeño formulario para creación del usuario, las tareas como “Crear artículo” o simplemente las que empiecen por “Crear” serán submenús de x usuario que crean formularios con un título, imagen y descripción que lleven esa creación a la base de datos.
 * El evento final de cualquier proceso lleva al usuario al inicio del sistema.
 * Cada gateway debe estar nombrado con palabras claves que van a estar almacenadas en un banco de palabras para realizar filtros y llevar un control.
+* Los atributos se simbolizan con un DataObjectReference y estarán conectados a las tareas con flechas punteadas de la forma tarea-atributo.
+* Toda tarea que hable de "Crear" define una clase.
+* Toda tarea que tenga atributos y hable de "Crear" o "Agregar", crea formulario.
+* Toda tarea que hable de "Ver" mostrará los atributos que tenga.
