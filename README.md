@@ -31,6 +31,8 @@ Reglas
 * El evento final de cualquier proceso lleva al usuario al inicio del sistema.
 * Cada gateway debe estar nombrado con palabras claves que van a estar almacenadas en un banco de palabras para realizar filtros y llevar un control.
 * Los atributos se simbolizan con un DataObjectReference y estarán conectados a las tareas con flechas punteadas de la forma tarea-atributo.
+* Los atributos se deben escribir de la ssiguiente forma: tipo:nombre:operación. La operación se agrega si el atributo es de tipo 
+"calculated".
 * Toda tarea que hable de "Crear" define una clase.
 * Toda tarea que tenga atributos y hable de "Crear" o "Agregar", crea formulario.
 * Toda tarea que hable de "Ver" mostrará los atributos que tenga.
