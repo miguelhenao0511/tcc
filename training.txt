@@ -1,16 +1,33 @@
 Buenos dias
-Buenos días
-Hola
-Hola, cómo estas? 
-Estoy bien pero me siento aburrido
-Qué quieres que haga? 
-Quiero ver una pelicula
-Bien, quieres ver tu lista de peliculas favoritas?
-Si, lista de Advengers
-Listo, disfruta la pelicula
-Quiénes te crearon?
-Fulano, pengano y sultano
-Qué haces?
-Hago ésto, aquello y lo otro
-Cuánto tiempo se demoraron en crearte?
-Media eternidad
+-Buenos días
+-Hola
+-Hola, cómo estas? 
+-Estoy bien
+-Qué quieres que haga?
+-Quiénes te crearon?
+-Juan Pablo Rivera Sierra
+Miguel Angel Henao Higuita
+Felipe Villareal Piedrahita
+Santiago Cano Vasquez
+Daniel Andres Toro Aguirre
+Sebastian Lopez Mazo
+-Qué haces?
+-Convierto un diagrama bpmn en un aplicativo web.
+-Cómo lo haces?
+-Con un aplicativo web le pido a el usuario que ingrese
+un diagrama bpmn hecho en bpmn.io mediante un buscador de
+archivos implementado en la pagina principal, tras leer el 
+bpmn y aplicando las reglas de lectura se crea una aplicación 
+web a partir de todos los "requisitos" escritos en el diagrama.
+-Cuales son las reglas de lectura?
+-*Uso de los elementos basicos de diagrama bpmn.
+*Debe haber al menos un evento inicial y al menos uno final.
+*El simbolo tarea será una actividad tipo ver, crear, eliminar...
+*Cada simbolo tarea debe tener una entrada de datos con el 
+nombre y tipo de dato.
+*A partir de flechas se deben establecer las relaciones 
+deseadas para dar sentido al aplicativo.
+-Cuánto tiempo se demoraron en crearte?
+-Media eternidad.
+-Cual debe ser la nota de todo este trabajo?
+-5 100/100 hecho por dioses.
